@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 
 import tkinter
 import customtkinter
@@ -38,7 +38,7 @@ class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         customtkinter.set_appearance_mode("dark")
-        customtkinter.set_default_color_theme("green")
+        customtkinter.set_default_color_theme("blue")
         self.title("Timer")
         self.minsize(400, 300)
 
